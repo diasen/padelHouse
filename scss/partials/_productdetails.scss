@@ -1,0 +1,134 @@
+.card-header {
+  margin-top: 50px !important;
+  text-align: left;
+}
+
+.details-description {
+  margin: 50px 0;
+}
+
+.details-description h6 {
+  font-weight: bolder;
+  font-size: 1.125rem;
+}
+
+.details-price {
+  font-size: 1.25rem;
+}
+
+.rackets-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.rackets-info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-specification {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.details-header,
+.details-price,
+.details-btn,
+.details-specification {
+  margin: 15px 0;
+}
+
+.addToCart-btn {
+  background-color: $cta-color;
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-img {
+  width: 70% !important;
+}
+
+@media (max-width: 1200px) {
+  .details-racket__container {
+    margin-top: 50px;
+  }
+
+  .details-specification {
+    width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .details-racket__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .addToCart-btn {
+    width: 200px;
+    height: 52px;
+    font-size: 1.2rem;
+  }
+
+  .details-specification {
+    width: 90%;
+  }
+
+  .carousel-img {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-header {
+    margin-top: 0 !important;
+  }
+
+  .details-specification {
+    margin-left: clamp(15px, 5%, 50px);
+  }
+
+  .addToCart-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .rackets-info {
+    width: 30%;
+  }
+
+  .rackets-info__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .carousel-img {
+    width: 90% !important;
+    margin: 0;
+  }
+
+  .rackets-info {
+    width: 100%;
+  }
+
+  .card-title {
+    margin-top: 0;
+  }
+}

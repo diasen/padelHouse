@@ -1,0 +1,41 @@
+.navbar {
+  background-color: $primary-color !important;
+  padding: 15px;
+}
+
+.main-logo {
+  width: 170px;
+}
+
+li a {
+  font-size: 1.1875rem;
+  color: $white !important;
+  font-family: 'Lato', sans-serif;
+}
+
+.fa-shopping-cart,
+.fa-user {
+  color: $white;
+}
+
+.logout {
+  border: none;
+  color: $white;
+  background-color: transparent;
+  border: 2px solid $white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .logout {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+}

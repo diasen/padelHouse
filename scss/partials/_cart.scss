@@ -1,0 +1,179 @@
+.cart-main {
+  min-height: 60vh;
+}
+
+.empty-cart {
+  height: 70vh;
+}
+
+.cart-header_details {
+  margin: 0;
+}
+.cart-price {
+  margin: 0;
+}
+
+.cart-header {
+  font-size: 2rem;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.empty-cart__btn {
+  background-color: $primary-btn;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 50px auto;
+  border: none;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.empty-cart__btn a {
+  text-decoration: none;
+  color: $white;
+}
+
+.btn_container {
+  margin-top: 50px !important;
+}
+
+.empty-cart__btnText {
+  text-decoration: none;
+  color: $white;
+  font-size: 1.2rem;
+}
+
+.empty-cart__header {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.removed-prodcuts__text {
+  font-size: 2rem;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.cart-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: black solid 1px;
+}
+
+.cart-img {
+  width: 200px;
+}
+
+.cart-minus,
+.cart-plus {
+  padding: 5px 10px;
+  border: rgb(51, 50, 50) solid 1px;
+  font-size: 1.2rem;
+}
+
+.cart-count {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.checkout-btn_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout-btn {
+  margin: 0 0 50px 0 !important;
+}
+
+.pricing {
+  margin: 50px 0;
+}
+
+.checkout-prices {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-price__header {
+  width: 30%;
+}
+
+.total-price {
+  width: 10%;
+}
+
+.cart-link_spesific a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.checkout-btn {
+  background-color: $cta-color;
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.remove-product {
+  cursor: pointer;
+}
+
+.cart-product__name {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .checkout-btn {
+    background-color: $cta-color;
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+  }
+
+  .checkout-prices {
+    text-align: right;
+  }
+
+  .total-price {
+    width: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cart-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .checkout-btn {
+    background-color: $cta-color;
+    width: 150px;
+    height: 45px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .cart-card {
+    flex-direction: column;
+  }
+
+  .cart-header_details,
+  .cart-link,
+  .cart-price,
+  .cart-img {
+    margin-bottom: 20px;
+  }
+}

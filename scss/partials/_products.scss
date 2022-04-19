@@ -1,0 +1,98 @@
+.rackets-header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search-input {
+  width: 40%;
+  margin: auto;
+}
+
+.search {
+  margin: 0 !important;
+}
+
+.card {
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+}
+
+.card-title {
+  margin: 0 0 8px 0 !important;
+}
+
+.prod-card {
+  text-align: center;
+}
+
+.card-price {
+  font-size: 1.125rem;
+}
+
+.racketsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+  margin: 100px 0;
+}
+
+.view-product__btn {
+  background-color: $primary-btn;
+  width: 100%;
+  border: 4px solid $primary-btn;
+  font-family: 'Poppins', sans-serif;
+}
+
+.view-product__btn:hover {
+  background-color: $white;
+  border: 4px solid $primary-btn;
+  color: $primary-btn;
+  font-weight: bold;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.loading-gif {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .card {
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: relative;
+  }
+
+  .racketsCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+    margin: 100px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 70%;
+  }
+
+  .racketsCards {
+    display: flex;
+    flex-direction: row;
+  }
+}

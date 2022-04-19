@@ -1,0 +1,42 @@
+Project Exam 2
+
+Alexander Hansen
+
+
+
+Links
+
+Github repo: https://github.com/Noroff-Fagskole/semester-project-diasen.git
+
+Authenticated user: Username: admin@admin.com
+Password: Pass1234
+
+Strapi login credentials:
+Email: alexander-hansen@hotmail.com
+Password: Jeghaterlangepassord2501
+
+heroku:
+https://padel-api.herokuapp.com/admin
+https://git.heroku.com/padel-api.git
+
+
+Netlify:
+https://festive-shannon-1f0e8b.netlify.app/
+
+Figma link: 
+https://www.figma.com/file/cxAEZ5QMKwpdRzgfhFAkuA/Semester-Project-2?node-id=0%3A1
+
+
+
+References
+
+Icons: 
+https://fontawesome.com/
+
+images:
+https://stock.adobe.com/photos 
+https://www.pexels.com/ 
+https://unsplash.com/ 
+
+product images:
+https://www.racketspesialisten.no/kategorier/padel/padelracket/

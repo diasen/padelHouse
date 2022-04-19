@@ -1,0 +1,39 @@
+.add-product__bg {
+  background-image: url('/img/adminlogin.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product__form {
+  background-color: $white;
+  width: 800px;
+  border-radius: 50px;
+  padding: 20px 70px;
+  margin: 50px 0;
+}
+
+.add-product__header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+.add-product__btn {
+  background-color: $primary-btn;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  margin: 40px 0;
+  border: none;
+}
+
+.alert {
+  margin: 0;
+}

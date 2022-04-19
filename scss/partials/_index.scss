@@ -1,0 +1,255 @@
+.homepage-header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3.75rem;
+}
+
+.hero-banner {
+  padding: 0;
+}
+
+.hero-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn-container {
+  margin: 0 0 100px 100px;
+}
+
+.shop-btn {
+  text-decoration: none;
+  color: $white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-box__shop {
+  height: 70px;
+  width: 300px;
+  border-radius: 50px;
+  background-color: $cta-color;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.btn-box__shop:hover {
+  color: $cta-color;
+  text-decoration: none;
+  background-color: #af403b;
+}
+
+.shop-btn:hover {
+  color: $white;
+}
+
+// brands
+
+.homepage-subheader {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.brand-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.brand-img {
+  width: 50%;
+}
+
+// racket guide
+
+.guide-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 100px 0;
+}
+
+.racket-guide__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.racket-guide__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.racket-guide__img {
+  width: 350px;
+}
+
+.racket-guide__textfield {
+  width: 80%;
+}
+
+// card styling
+
+.featured-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+  margin: 100px 0;
+}
+
+.featured-card {
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+}
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 30px;
+  margin: 100px 0;
+}
+
+// newsletter
+
+.newsletter-container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0;
+  background-color: $primary-color;
+  color: white;
+  padding: 40px;
+}
+
+.newsletter-form {
+  width: 60%;
+  max-width: 600px;
+  margin: auto auto;
+}
+
+.newsletter-btn {
+  background-color: $cta-color;
+  color: $white;
+  border: none;
+}
+
+.active {
+  border-bottom: 3px white solid;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .brand-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+  }
+
+  .brand-img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-image {
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100vw;
+  }
+
+  .btn-box__shop {
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: $cta-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn-box__shop:hover {
+    color: $cta-color;
+    text-decoration: none;
+    background-color: #af403b;
+  }
+
+  .shop-btn {
+    font-size: 1.2rem;
+  }
+
+  .btn-container {
+    margin: 0 0 100px 50px;
+  }
+
+  .homepage-header {
+    margin-top: 20px;
+    font-size: 2.3rem;
+  }
+
+  .homepage-subheader {
+    font-size: 2rem;
+  }
+
+  .brand-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+  }
+
+  .brand-img {
+    width: 50%;
+  }
+
+  .newsletter-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    background-color: $primary-color;
+    color: white;
+    padding: 40px;
+  }
+
+  .racket-guide__img {
+    width: 250px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter-input {
+    width: 100% !important;
+    margin-bottom: 10px;
+    border-radius: 5px !important;
+  }
+
+  .newsletter-btn {
+    border-radius: 5px !important;
+    width: 40%;
+    margin: auto auto !important;
+  }
+}
