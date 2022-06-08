@@ -26,6 +26,8 @@ You can list a the tech stack that you've used over here
 
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
+- [Sass](https://sass-lang.com/)
+- [Javascript](https://www.javascript.com/)
 
 ## Getting Started
 
@@ -45,8 +47,6 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
@@ -55,12 +55,18 @@ npm start
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+1. Fork it
+2. Clone it to your local system
+3. Make a new branch
+4. Make your changes
+5. Push it back to your repo
+6. Click the Compare & pull request button
+7. Click Create pull request to open a new pull request
 
 ## Contact
-
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
 [My Facebook page](https://www.facebook.com/alexander.x.hansen)
 
 [My LinkedIn page](https://www.linkedin.com/in/alexander-hansen-ab83ab8a/)
+
+[My email](Alexander-hansen@hotmail.com)
