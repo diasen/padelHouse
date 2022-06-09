@@ -1,0 +1,20 @@
+{
+  "name": "padelhouse",
+  "version": "1.0.0",
+  "description": "semester project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diasen/padelHouse.git"
+  },
+  "author": "Alexander Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diasen/padelHouse/issues"
+  },
+  "homepage": "https://github.com/diasen/padelHouse#readme"
+}
