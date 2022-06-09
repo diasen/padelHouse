@@ -24,7 +24,6 @@ Building a checkout and payment system is not a part of the project.
 
 You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
 - [Sass](https://sass-lang.com/)
 - [Javascript](https://www.javascript.com/)
@@ -39,18 +38,12 @@ You can list a the tech stack that you've used over here
 git clone https://github.com/diasen/padelHouse.git
 ```
 
-2. Install the dependencies:
-
-```
-npm install
-```
-
 ### Running
 
-To run the app, run the following commands:
+To run the app:
 
 ```bash
-npm start
+Open with Live server
 ```
 
 ## Contributing
